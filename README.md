@@ -9,9 +9,6 @@ The changes are specific to create.c and compare.c and look for #ifdef __linux__
         (s->st_mtimespec.tv_nsec != p->fts_statp->st_mtimespec.tv_nsec)) {
 #endif
 
-**NOTE**: This project is deprecated, replaced by this port of NetBSD's newer mtree: https://github.com/archiecobbs/nmtree 
-
-======================================
 
 This project is a port of the very useful **mtree** utility, originally only available in BSD distributions, to Linux and other operating systems.
 
